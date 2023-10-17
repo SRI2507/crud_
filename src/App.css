@@ -1,0 +1,123 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:100vh;
+  flex-direction: column;
+  color:#160C0C;
+  background-color:#eff4fd;
+ 
+}
+.name{
+  margin-right: 0.5rem;
+}
+.form{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+}
+.submit{
+  font-weight: bold;
+  color:#fff;
+  background-color:#1E1926;
+  border-radius: 0.2rem;
+  border:none;
+  font-size: 1rem;
+  padding: 5px 10px;
+  display:block;
+  margin:0 auto;
+  
+}
+
+.table,.tablecell{
+  border-bottom: 1px solid white;
+  border-collapse: collapse;
+  text-align: center;
+}
+.table{
+  border: 1px solid white;
+  background-color: #7f54dd;
+}
+.tablecell{
+  padding: 10px 15px;
+}
+.tableheadercell{
+  padding: 10px 15px;
+  font-weight: bolder;
+}
+.tablehead{
+  color: white;
+  background-color: #1E1926;
+  border-collapse: collapse;
+  padding: 10px 5px;
+  font-weight: bolder;
+}
+.delete{
+  background-color: #1E1926;
+  color:#fff;
+  border-radius: 5px;
+  padding:5px 15px;
+}
+.update{
+  background-color: #1E1926;
+  color:#fff;
+  border-radius: 5px;
+  padding: 5px 15px;
+}
+
+input{
+  padding: 10px;
+  margin: 5px 10px;
+  border-radius: 0.3rem;
+}
+button:hover{
+  cursor: pointer;
+}
+.add{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 250px;
+  margin-top: 20px;
+  background-color: #1E1926;
+  color: white;
+  padding: 5px 15px;
+  border-radius: 5px;
+}
+@media  screen and (max-width:450px){
+  
+  .table{
+    margin: 20px auto;
+    font-size: 12px;
+  }
+
+  .tablecell{
+    padding: 3px;
+  
+  }
+  .tableheadercell{
+    padding: 3px;
+    font-weight: lighter;
+  }
+  .delete{
+    padding: 2px;
+    border-radius: 3px;
+   
+  }
+  .update{
+    border-radius: 3px;
+    
+  padding: 2px; 
+  }
+  .add{
+  
+    padding: 5px 10px ;
+  
+  }
+  
+}
+.table-view{
+  
+}
